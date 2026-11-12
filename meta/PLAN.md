@@ -63,7 +63,7 @@ credit); interactive item partial credit = correct cells / total cells, counted 
 - **Selection:** per-question `seen` counts; draws prefer least-seen questions (random tie-break), then shuffle; option order shuffled per
   presentation, seeded by session id + question id so it is stable on reload; no repeats within a session.
 - **Session UI:** counter `Q 12 / 25`, domain + objective tag in Practice mode only (Exam mode hides it like the real test), stem,
-  options as large rows (radio or checkbox with a "Choose N" hint), Flag, Prev/Next, Review grid (answered / unanswered / flagged),
+  options as large rows (radio or checkbox with a "Choose N" hint), Flag, Prev/Next, an always-visible Review grid under the question (answered / unanswered / flagged; no toggle button),
   Submit with an unanswered count. Keyboard: 1–6 select, F flag, ←/→ navigate, Enter check/next. Every change persists immediately.
 - **Results:** percent, scaled score with pass/fail, per-domain table, weakest objectives, time used, full review with filters
   All / Missed / Flagged, objective links into the guide, "Retry missed", "Back to home".
