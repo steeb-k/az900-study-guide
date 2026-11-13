@@ -1,0 +1,118 @@
+{
+  "id": "az-900",
+  "vendor": "microsoft",
+  "code": "AZ-900",
+  "name": "Azure Fundamentals",
+  "title": "Azure Fundamentals AZ-900",
+  "tabTitle": "AZ-900",
+  "guideTitle": "AZ-900 Guide",
+  "description": "Static Microsoft Azure Fundamentals AZ-900 practice exam: module quizzes, final exam simulator, missed-question drill.",
+  "guideDescription": "Microsoft Azure Fundamentals AZ-900 study guide: searchable chapters with acronym tooltips and links to the practice questions.",
+  "hubBlurb": "Cloud concepts, Azure architecture and services, management and governance. 45 minutes, pass line 700.",
+  "brand": {
+    "left": [
+      "Azure Fundamentals",
+      "Azure"
+    ],
+    "right": [
+      "AZ-900",
+      "900"
+    ]
+  },
+  "repo": "steeb-k/az900-study-guide",
+  "storagePrefix": "az900.",
+  "exportName": "az900",
+  "readyAt": 0.8,
+  "minPerDomain": 75,
+  "minPbq": 18,
+  "minPerObjective": 3,
+  "terms": {
+    "item": "interactive item",
+    "items": "interactive items",
+    "tag": "Interactive",
+    "finalIntro": "interactive items first (yes/no grids, matching, ordering, dropdown tables)"
+  },
+  "exam": {
+    "version": "AZ-900",
+    "totalQuestions": 40,
+    "pbqCount": 4,
+    "mcqPerDomain": {
+      "1": 10,
+      "2": 14,
+      "3": 12
+    },
+    "minutes": 45,
+    "passScaled": 700,
+    "scaledMin": 0,
+    "scaledMax": 1000
+  },
+  "domains": {
+    "1": {
+      "name": "Cloud Concepts",
+      "short": "Cloud Concepts",
+      "weight": 0.275,
+      "chapter": "01",
+      "objectives": {
+        "1.1": "Describe cloud computing",
+        "1.2": "Describe the benefits of using cloud services",
+        "1.3": "Describe cloud service types"
+      }
+    },
+    "2": {
+      "name": "Azure Architecture and Services",
+      "short": "Architecture & Services",
+      "weight": 0.375,
+      "chapter": "02",
+      "objectives": {
+        "2.1": "Describe the core architectural components of Azure",
+        "2.2": "Describe Azure compute and networking services",
+        "2.3": "Describe Azure storage services",
+        "2.4": "Describe Azure identity, access, and security"
+      }
+    },
+    "3": {
+      "name": "Azure Management and Governance",
+      "short": "Mgmt & Governance",
+      "weight": 0.35,
+      "chapter": "03",
+      "objectives": {
+        "3.1": "Describe cost management in Azure",
+        "3.2": "Describe features and tools in Azure for governance and compliance",
+        "3.3": "Describe features and tools for managing and deploying Azure resources",
+        "3.4": "Describe monitoring tools in Azure"
+      }
+    }
+  },
+  "chapters": {
+    "90": "service-picker",
+    "91": "acronyms",
+    "92": "numbers-comparisons",
+    "00": "exam-overview",
+    "01": "domain-1-cloud-concepts",
+    "02": "domain-2-azure-architecture-services",
+    "03": "domain-3-azure-management-governance"
+  },
+  "howto": {
+    "subject": "Azure Fundamentals (AZ-900)",
+    "sidebar": "an exam overview, the three exam domains, and three reference sheets (service picker, acronyms, numbers and comparisons)",
+    "searchExample": "\"redun\" finds redundancy and redundant, but \"dant\" won't find either",
+    "acronymsLead": "Azure has its share of acronyms",
+    "acronymsTail": "",
+    "disclaimer": "All of this content was AI-generated and hasn't been vetted by a person yet. It was written against Microsoft's AZ-900 skills outline (the July 20, 2026 version) and checked once, but that's not the same as a reviewer who has sat the exam, and Azure changes often. If something looks surprising, check it against Microsoft Learn before you trust it."
+  },
+  "full": {
+    "title": "Microsoft Azure Fundamentals AZ-900 — Complete Study Guide",
+    "disclaimer": "This guide was written by AI against Microsoft's AZ-900 skills outline (July 20, 2026) and has **not yet been reviewed by a human for accuracy**. Cross-check anything surprising against Microsoft Learn before relying on it."
+  },
+  "favicon": {
+    "layout": "stacked",
+    "a": "AZ",
+    "b": "900",
+    "outline": 30,
+    "divider": 262,
+    "aHeight": 150,
+    "bHeight": 130,
+    "ink": "#060b14",
+    "paper": "#eaf1fb"
+  }
+}
